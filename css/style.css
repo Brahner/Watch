@@ -29,8 +29,8 @@ body {
 .header {
     width: 1440px;
     display: flex;
-    padding: 0px 240px 176px 133px;
-    border-color: #F8F8F8;
+    padding: 10px 240px 176px 133px;
+    background-color: #F8F8F8;
 }
 
 .header__preview {
@@ -51,7 +51,7 @@ body {
 
 .header__desc {
     width: 575px;
-    margin-top: 43px;
+    margin-top: 30px;
     font-weight: 300;
     font-size: 32px;
     line-height: 155%;
@@ -61,7 +61,7 @@ body {
     display: flex;
     width: 421px;
     height: 82px;
-    margin-top: 61px;
+    margin-top: 52px;
 }
 
 .buy__link {
@@ -83,5 +83,62 @@ body {
     font-weight: 300;
     font-size: 32px;
     color: #272727;
-    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.header__img {
+  padding-left: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  text-align: center;
+}
+
+.main__title {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.main__subtitle {
+  font-weight: 400;
+  font-size: 72px;
+  margin-top: 16px;
+}
+
+.models {
+  width: 530px;
+  margin: 70px auto 0;
+/*   border: 1px solid red; */
+}
+
+.models__img  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 417px;
+  height: 630px;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+}
+
+.models__item {
+  margin-top: 68px;
+  width: 530px;
+}
+
+.models__title {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.models__desc {
+  margin-top: 14px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
 }
