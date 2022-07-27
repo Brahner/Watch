@@ -14,3 +14,65 @@ body {
   font-family: 'League Spartan', sans-serif;
 }
 
+.promo  {
+  width: 1440px;
+  height: 900px;
+  padding-bottom: 176px;
+  border-color: #F8F8F8;
+}
+
+.promo__features {
+  margin-top: 110px;
+}
+
+.promo__title {
+  font-weight: 300;
+  font-size: 24px;
+  color: #161515;
+}
+
+.promo__subtitle {
+  font-weight: 300;
+  font-size: 250px;
+  margin-top: -15px;
+  color: #272727;
+}
+
+.promo__desc {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  color: #161515;
+}
+
+.promo__buy {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  width: 421px;
+  height: 82px;
+}
+
+.promo__link {
+  width: 278px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #161515;
+}
+
+.promo__link--decor {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.promo__price {
+  width: 143px;
+  font-weight: 300;
+  font-size: 32px;
+  text-align: center;
+  line-height: 186%;
+  color: #272727;
+  background-color: #fff;
+}
