@@ -6,6 +6,8 @@
 
 body {
   font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
 }
 
 .promo  {
@@ -18,21 +20,17 @@ body {
 }
 
 .promo__title {
-  font-weight: 300;
   font-size: 24px;
   color: #161515;
 }
 
 .promo__subtitle {
-  font-weight: 300;
   font-size: 250px;
   margin-top: -15px;
   color: #272727;
 }
 
 .promo__desc {
-  font-weight: 300;
-  font-size: 32px;
   line-height: 155%;
   color: #161515;
 }
@@ -46,8 +44,6 @@ body {
 .promo__link {
   width: 278px;
   height: 82px;
-  font-weight: 300;
-  font-size: 32px;
   line-height: 80px;
   text-align: center;
   background-color: #161515;
@@ -61,8 +57,6 @@ body {
 .promo__price {
   width: 143px;
   height: 82px;
-  font-weight: 300;
-  font-size: 32px;
   text-align: center;
   line-height: 245%;
   color: #272727;
@@ -75,7 +69,6 @@ body {
 }
 
 .main__title {
-  font-weight: 300;
   font-size: 24px;
   color: #000000;
 }
@@ -104,7 +97,6 @@ body {
 .models__title {
   margin-top: 46px;
   font-weight: 400;
-  font-size: 32px;
   color: #000000;
 }
 
@@ -112,7 +104,31 @@ body {
   width: 531px;
   height: 238px;
   margin-top: 5px;
-  font-weight: 300;
-  font-size: 32px;
   color: #161515;
+}
+
+.product {
+
+}
+
+.product__title {
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #161515;
+}
+
+.product__sep {
+
+}
+
+.product__desc {
+  font-size: 24px;
+  line-height: 170%;
+  color: #161515;
+}
+
+.product__link {
+  /* text-decoration-line: underline; */
+  font-weight: 500;
+  color: #BB8B5D;
 }
