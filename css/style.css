@@ -1,4 +1,4 @@
-@import url('media.css');
+/* @import url('media.css'); */
 
 @font-face {
   font-family: 'League Spartan';
@@ -66,8 +66,13 @@ body {
   background-color: #fff;
 }
 
+.promo__image {
+
+}
+
 .main {
   padding-top: 40px;
+  padding-bottom: 142px;
   text-align: center;
 }
 
@@ -105,7 +110,7 @@ body {
 }
 
 .models__desc {
-  width: 531px;
+  max-width: 531px;
   height: 238px;
   margin-top: 5px;
   color: #161515;

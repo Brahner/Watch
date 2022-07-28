@@ -1,0 +1,50 @@
+@media (max-width: 1199px) {
+    .promo__subtitle {
+        font-size: 150px;
+    }
+
+    .promo__desc {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        padding-top: 245px;
+        padding-bottom: 357px;
+        background-color: rgb(138, 121, 121);
+    }
+
+    .promo__subtitle {
+        font-size: 100px;
+    }
+
+    .promo__desc {
+        font-size: 26px;
+    }
+
+    .promo__price {
+        line-height: 265%;
+    }
+
+    .promo__buy {
+        position: absolute;
+        left: 25%;
+    }
+
+    .models {
+        margin-top: 35px;
+    }
+
+    .models__img {
+        height: 580px;
+    }
+
+    .models__desc {
+        font-size: 26px;
+    }
+
+    .product {
+        margin-top: 50px;
+    }
+}
