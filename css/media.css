@@ -10,8 +10,9 @@
 
 @media (max-width: 991px) {
     .promo {
-        padding-top: 245px;
-        padding-bottom: 357px;
+        height: 100vh;
+        padding-top: 30%;
+        padding-bottom: 38%;
         background-color: rgb(138, 121, 121);
     }
 
@@ -29,7 +30,7 @@
 
     .promo__buy {
         position: absolute;
-        left: 25%;
+        left: 22%;
     }
 
     .models {
@@ -46,5 +47,15 @@
 
     .product {
         margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        background-color: rgb(96, 128, 93);
+    }
+
+    .promo__buy {
+        bottom: 15%;
     }
 }
