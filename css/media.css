@@ -1,4 +1,8 @@
 @media (max-width: 1199px) {
+    .promo {
+        background-color: rgb(112, 133, 139);
+    }
+
     .promo__subtitle {
         font-size: 150px;
     }
