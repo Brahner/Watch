@@ -134,7 +134,9 @@ body {
   color: var(--main-primari-color);
 }
 
-.product__sep {
+.product__title::after {
+  content: '';
+  display: block;
   width: 178px;
   height: 1px;
   margin: 0 auto;
