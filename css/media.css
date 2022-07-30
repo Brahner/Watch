@@ -28,10 +28,6 @@
         font-size: 26px;
     }
 
-    .promo__price {
-        line-height: 265%;
-    }
-
     .promo__buy {
         position: absolute;
         left: 22%;
@@ -62,46 +58,100 @@
     .promo__buy {
         bottom: 15%;
     }
+
+    .product__desc {
+        max-width: ;
+    }
 }
 
 @media (max-width: 575px) {
+
     .promo {
+        position: relative;
         padding-top: 0;
         background-color: var(--gray-purple-color);
     }
 
-    .promo__features {
-        margin-top: 50px;
+    .promo__phone {
+        display: block;
+        position: absolute;
+        top: 18%;
+        max-width: 55%;
     }
 
-    .promo__title {
-        font-size: 32px;
+    .promo__features {
+        margin-top: 10%;
     }
 
     .promo__subtitle {
-        width: 50%;
-        margin-left: 7%;
+        font-size: 65px;
+        padding-left: 7%;
     }
 
     .promo__desc {
-        position: absolute;
-        bottom: 20%;
-        width: 95%;
-        height: 130px;
-        font-size: 30px;
-    }
-
-    .promo__image {
-        width: 50%;
-        margin: 0 auto;
+        padding-left: 5%;
+        padding-top: 47vh;
+        font-size: 19px;
     }
 
     .promo__buy {
-        left: 12%;
+        max-width: 250px;
+        max-height: 45px;
+        font-size: 22px;
+        left: 16%;
         bottom: 5%;
     }
 
-    .models {
-        width: 95%;
+    .promo__link {
+        max-height: 45px;
     }
+
+    .promo__price {
+        max-height: 45px;
+    }
+
+    .main  {
+        padding-bottom: 40px;
+        /* overflow-x: hidden; */
+    }
+
+    .main__title {
+        font-size: 18px;
+    }
+
+    .main__subtitle {
+        font-size: 45px;
+    }
+
+    .models {
+        margin-top: 15px;
+    }
+
+    .models__title {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+
+    .models__desc {
+        font-size: 16px;
+    }
+
+    .models__img {
+        max-width: 208.5px;
+        max-height: 315px;
+    }
+
+    .product {
+        margin-top: 0;
+    }
+
+    .product__title {
+        font-size: 26px;
+    }
+
+    .product__desc {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
 }

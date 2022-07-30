@@ -51,16 +51,23 @@ body {
 }
 
 .promo__buy {
+  width: 421px;
+  height: 82px;
   display: flex;
   align-items: center;
   margin-top: 60px;
 }
 
+.promo__link, .promo__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  text-align: center;
+}
+
 .promo__link {
   width: 278px;
-  height: 82px;
-  line-height: 80px;
-  text-align: center;
   background-color: var(--main-primari-color);
 }
 
@@ -71,11 +78,12 @@ body {
 
 .promo__price {
   width: 143px;
-  height: 82px;
-  text-align: center;
-  line-height: 245%;
   color: var(--dark-brown-color);
   background-color: var(--white-color);
+}
+
+.promo__mobile {
+  display: none;
 }
 
 .main {
@@ -111,6 +119,10 @@ body {
   background-color: var(--main-bg-color);
 }
 
+  .models__img--first {
+    max-width: 65%;
+  }
+
 .models__title {
   margin-top: 46px;
   font-weight: 400;
@@ -119,7 +131,7 @@ body {
 
 .models__desc {
   max-width: 531px;
-  height: 238px;
+  height: 250px;
   margin-top: 5px;
   color: var(--main-primari-color);
 }
